@@ -1,0 +1,76 @@
+body {
+	font-family: 'Raleway', sans-serif;
+	color: #006699;
+	font-weight: 400;
+}
+
+hr {
+	border-top: 1px dashed #bcbbbb;
+	border-bottom: 1px solid #bcbbbb;
+	color: #fff;
+	background-color: #fff;
+	height: 3px;
+}
+
+img {
+	border: 2px solid #fff;
+	border-radius: 25px;
+}
+
+.project-title {
+	font-family: 'Lato', sans-serif;
+	color: #006699;
+	font-weight: 300;
+}
+
+.section-start {
+	margin-top: 20px;
+}
+
+.text-large {
+	font-size: 30px;
+}
+
+.text-muted {
+	color: #bcbbbb;
+}
+
+.text-thin {
+	font-weight: 100;
+}
+
+.title-logo {
+	margin-top: 20px;
+	max-width: 100%;
+	max-height: 100px;
+}
+
+.title-super {
+	font-size: 50px;
+}
+
+@media only screen and (max-width: 1000px){
+	h4,
+	.title-super {
+		text-align: center;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
+	.title-logo {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+}
+
+@media only screen and (max-width: 500px){
+	h2,
+	.text-large {
+		font-size: 20px;
+	}
+	
+	.title-super {
+		font-size: 30px;
+	}
+}
